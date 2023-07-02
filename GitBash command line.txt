@@ -1,0 +1,19 @@
+key Command line 
+
+git config
+git clone
+git init
+git add url()
+git commit -m "message"
+git push origin (branch name)
+git pull origin (branch name)
+git branch
+git branch (new branch)
+git checkout (branch)
+
+Terminal command line
+pwd - shows the file path currently opened on the terminal
+ls - list available folders(branch) in the current directory
+cd - change directory
+mkdir - create a folder in terminal
+
