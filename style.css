@@ -86,7 +86,7 @@ p {
 }
 
 /*container*/
-.cointainer {
+.container {
     margin: auto;
     max-width: 1100;
     overflow: auto;
@@ -192,11 +192,27 @@ p {
 }
 
 /*our service*/
+#our-services {
+    background: url(./img/pexels-josiah-farrow-3396656.jpg)no-repeat center center/cover;
+    height: 700px;
+    color: #fff;
+    filter: brightness(60%);
+}
+
 .box {
     float: left;
     width: 20%;
     padding: 50px;
     text-align: center;
+}
+
+#our-services img {
+    width: 200px;
+    float: left;
+    margin: 5px;
+    border-radius: 50px;
+    display: inline;
+
 }
 
 /*padding*/
@@ -243,15 +259,23 @@ p {
     padding-top: 40px;
 }
 
+#testimonials img {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50px;
+    display: inline;
+}
+
 #testimonials h2 {
-    color: #fff;
+    color: #040421;
     text-align: center;
     padding-bottom: 40px;
 }
 
 #testimonials p {
     color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 20px 40px;
     background-color: #040421;
 }
 
@@ -265,9 +289,51 @@ p {
     float: left;
     margin-right: 20px;
     border-radius: 50px;
-    display: block;
+    display: inline;
 }
 
+/*contact*/
+#contact-form {
+    background: url(./img/pexels-gianluca-grisenti-17427998.jpg) no-repeat center center/cover;
+}
+
+#contact-form .form-group {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px;
+}
+
+#contact-form .form-group label {
+    display: block;
+    color: #fff;
+}
+
+#contact-form p.closing {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+
+}
+
+#contact-form.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: #666 solid 1px;
+    border-radius: 5px;
+
+}
+
+#contact-form .btn {
+    font-size: 30px;
+    padding: 10px;
+    display: block;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/*footer*/
 #main-footer {
     text-align: center;
     padding: 20px;
